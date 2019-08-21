@@ -1,2 +1,5 @@
 # count2TPM
 利用人的基因组数据，将count转换为TPM
+人基因组数据为gene_length，选用的gtf为人类基因组hg38
+需要自己载入自己的COUNT文件，第一列为gene_id,应于gene_length.txt文件第一列相同，第二列为空或gene——name等都可，但是要预留一列存储length。
+通过验证TPM值准确
